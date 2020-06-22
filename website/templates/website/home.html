@@ -2,35 +2,48 @@
 {% load static %}
  
 {% block content %}
-<div id = "slides" class = "carousel slide" data-ride = "carousel">
-    <ul class = "carousel-indicators">
-        <li data-target = "#slides" data-slide-to="0" class ="active"></li>
-        <li data-target = "#slides" data-slide-to="1"></li>
-        <li data-target = "#slides" data-slide-to="2"></li>
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
     </ul>
-    <div class = "carousel-inner">
-        <div class = "carousel-item active">
-            <img src="{% static 'images/sandwhich.jpg' %}" width = 100% height = 100%>
-            <div class = "carousel-caption">
-                <h1 class = "display-2" font-size = 100%>Sandwhiches and Burgers</h1>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'images/sandwhich.jpg' %}" width=100% height=100%>
+            <div class="carousel-caption">
+                <h1 class="display-2" font-size=100%>Sandwhiches and Burgers</h1>
             </div>
         </div>
-        <div class = "carousel-item">
-            <img src="{% static 'images/coffee2.jpg' %}" width = 100% height = 100%>
-            <div class = "carousel-caption">
-                <h1 class = "display-2" font-size = 100%>We serve Starbucks Coffee</h1>
+        <div class="carousel-item">
+            <img src="{% static 'images/coffee2.jpg' %}" width=100% height=100%>
+            <div class="carousel-caption">
+                <h1 class="display-2" font-size=100%>We serve Starbucks Coffee</h1>
             </div>
         </div>
-        <div class = "carousel-item">
-            <img src="{% static 'images/bibimbap2.jpg' %}" width = 100% height = 100%>
-            <div class = "carousel-caption">
-                <h1 class = "display-2" font-size = 100%>Bibimbap</h1>
+        <div class="carousel-item">
+            <img src="{% static 'images/bibimbap2.jpg' %}" width=100% height=100%>
+            <div class="carousel-caption">
+                <h1 class="display-2" font-size=100%>Bibimbap</h1>
             </div>
         </div>
     </div>
-    </div>
-    </div>
+</div>
+<br>
 
-
+<div class="container" width = 100%>
+    <div class="row text-center">
+        <div class="col">
+            <i class="fas fa-compass"></i>
+            <h1 class="display-4" font-size=100%> LOCATION </h1>
+            <p class="lead" font-size=100%>Prosperity Medical Center 8503 Arlington Boulevard #160 Fairfax, Virginia 22031</p>
+        </div>
+        <div class="col">
+            <i class="fas fa-clock"></i>
+            <h1 class="display-4" font-size=100%> HOURS </h1>
+            <p class="lead" font-size=100%>Monday-Friday 7am-4pm </p>
+        </div>
+    </div>
+</div>
 
 {% endblock %}

@@ -7,3 +7,5 @@ def about(request):
     return render(request,'website/about.html')
 def home(request):
     return render(request,'website/home.html')
+def menu(request):
+    return render(request,'website/menu.html')
