@@ -71,3 +71,9 @@ ul li a:hover {
     font-size: 4em;
     margin: 1rem;
 }
+.page-footer {
+    background-color:rgb(255, 211, 157)
+}
+p {
+    font-size: 60%;
+}
